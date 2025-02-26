@@ -3,7 +3,7 @@ import 'dart:ffi';
 class HdstModel {
   final Int hdstId;
   final String hdstNm;
-  final String repesntFileNm;
+  final String? repesntFileNm;
   final String hdstInduty;
   final String appnYear;
   final String opbizDe;
@@ -11,8 +11,8 @@ class HdstModel {
   final String cttPc;
   final String adres;
   final String hmPg;
-  final String ctprvnCd;
-  final String signguCd;
+  final String? ctprvnCd;
+  final String? signguCd;
   final String dc;
   final String parkngPosblYn;
   final String resvePosblYn;

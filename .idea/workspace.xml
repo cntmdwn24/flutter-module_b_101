@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7be1e9-6d86-4754-9f7c-1b18f0c84824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/LLSB_BI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/models/hdst_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/repositories/hdst_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/providers/home_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/slicer_app_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter-module_b_101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-module_b_101.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/providers/oneboarding_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/providers/oneboarding_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/screens/oneboarding_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/screens/oneboarding_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/hdst_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/models/hdst_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/repositories/hdst_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/repositories/hdst_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/providers/home_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/providers/home_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
