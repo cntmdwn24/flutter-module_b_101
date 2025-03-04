@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:module_b_101/common/ip_address.dart';
 import 'package:module_b_101/presentation/providers/home_provider.dart';
 import 'package:module_b_101/presentation/widgets/slicer_app_bar.dart';
 
@@ -74,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             return Column(
                               children: [
                                 Image.network(
-                                  'http://172.28.2.82:8081/resource/img/hdst/${hdstModel.repesntFileNm}',
+                                  'http://$ipAddress:8081/resource/img/hdst/${hdstModel.repesntFileNm}',
                                   width: MediaQuery.sizeOf(context).width - 60,
                                   height: 180,
                                   fit: BoxFit.cover,

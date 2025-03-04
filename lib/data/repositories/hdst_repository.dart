@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
+import 'package:module_b_101/common/ip_address.dart';
 import 'package:module_b_101/data/models/hdst_model.dart';
 
 class HdstRepository {
@@ -8,7 +9,7 @@ class HdstRepository {
 
   Future<List<HdstModel>> getRandomFiveHdst() async {
     final response = await client.get(
-      Uri.parse('http://172.28.2.82:8081/api/home'),
+      Uri.parse('http://$ipAddress:8081/api/home'),
     );
 
     final json = jsonDecode(response.body);
