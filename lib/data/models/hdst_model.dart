@@ -3,7 +3,7 @@ import 'dart:ffi';
 class HdstModel {
   final Int hdstId;
   final String hdstNm;
-  final String? repesntFileNm;
+  final String repesntFileNm;
   final String hdstInduty;
   final String appnYear;
   final String opbizDe;
@@ -20,8 +20,8 @@ class HdstModel {
   final String packngPosblYn;
   final String dspsnCnvncYn;
 
-  HdstModel(
-      {required this.hdstId,
+  HdstModel({
+      required this.hdstId,
       required this.hdstNm,
       required this.repesntFileNm,
       required this.hdstInduty,
@@ -44,7 +44,7 @@ class HdstModel {
     return HdstModel(
       hdstId: json['hdstId'],
       hdstNm: json['hdstNm'],
-      repesntFileNm: json['repesntFileNm'],
+      repesntFileNm: json['repesntFileNm'] ?? '',
       hdstInduty: json['hdstInduty'],
       appnYear: json['appnYear'],
       opbizDe: json['opbizDe'],
