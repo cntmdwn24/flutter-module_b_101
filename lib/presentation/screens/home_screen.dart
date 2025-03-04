@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
 import 'package:module_b_101/common/ip_address.dart';
 import 'package:module_b_101/presentation/providers/home_provider.dart';
+import 'package:module_b_101/presentation/widgets/custom_Industry_button.dart';
 import 'package:module_b_101/presentation/widgets/slicer_app_bar.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -31,6 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey.shade100,
       body: CustomScrollView(
         slivers: [
           SliverPersistentHeader(
@@ -57,12 +60,23 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        '전국의 백년가게',
-                        style: TextStyle(
-                            color: Colors.blue,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16),
+                      Row(
+                        children: [
+                          Icon(Icons.circle, size: 4, color: Colors.blue),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            '전국의 백년가게',
+                            style: TextStyle(
+                                color: Colors.blue,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16),
+                          )
+                        ],
+                      ),
+                      SizedBox(
+                        height: 15,
                       ),
                       SizedBox(
                         height: 250,
@@ -97,12 +111,73 @@ class _HomeScreenState extends State<HomeScreen> {
                                       fontSize: 24,
                                       fontWeight: FontWeight.bold),
                                 ),
+                                SizedBox(
+                                  height: 5,
+                                ),
                               ],
                             );
                           },
                         ),
                       ),
-                      Text('업종별 백년가게')
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Transform(
+                            alignment: Alignment.center,
+                            transform: Matrix4.rotationY(math.pi),
+                            child: Icon(
+                              Icons.play_arrow_rounded,
+                              size: 15,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          Text(
+                            'SWIPE',
+                            style: TextStyle(
+                                color: Colors.blue,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 12),
+                          ),
+                          Icon(
+                            Icons.play_arrow_rounded,
+                            size: 15,
+                            color: Colors.grey,
+                          ),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 400,
+                  decoration: BoxDecoration(color: Colors.white),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 30,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 20),
+                        child: Row(
+                          children: [
+                            Icon(Icons.circle, size: 4, color: Colors.blue),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            Text(
+                              '업종별 백년가게',
+                              style: TextStyle(
+                                  color: Colors.blue,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Row(
+                        children: [CustomIndustryButton(text: '안녕하셈')],
+                      ),
                     ],
                   ),
                 )
