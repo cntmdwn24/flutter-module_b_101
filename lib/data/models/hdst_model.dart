@@ -1,7 +1,7 @@
 import 'dart:ffi';
 
 class HdstModel {
-  final Int hdstId;
+  final int hdstId;
   final String hdstNm;
   final String repesntFileNm;
   final String hdstInduty;
@@ -20,8 +20,8 @@ class HdstModel {
   final String packngPosblYn;
   final String dspsnCnvncYn;
 
-  HdstModel({
-      required this.hdstId,
+  HdstModel(
+      {required this.hdstId,
       required this.hdstNm,
       required this.repesntFileNm,
       required this.hdstInduty,
