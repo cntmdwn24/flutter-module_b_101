@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Container(
                   width: double.infinity,
-                  height: 400,
+                  height: 300,
                   decoration: BoxDecoration(color: Colors.white),
                   child: Column(
                     children: [
@@ -175,9 +175,125 @@ class _HomeScreenState extends State<HomeScreen> {
                           ],
                         ),
                       ),
-                      Row(
-                        children: [CustomIndustryButton(text: '안녕하셈')],
+                      SizedBox(
+                        height: 10,
                       ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CustomIndustryButton(text: '건설업'),
+                          CustomIndustryButton(text: '농업'),
+                          CustomIndustryButton(text: '소도매업'),
+                          CustomIndustryButton(text: '서비스업'),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CustomIndustryButton(text: '숙박업'),
+                          CustomIndustryButton(text: '음식업'),
+                          CustomIndustryButton(text: '제조업'),
+                          CustomIndustryButton(text: '축산업'),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 190,
+                  decoration: BoxDecoration(color: Colors.blue.shade50),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 20),
+                        child: Row(
+                          children: [
+                            Icon(Icons.circle, size: 4, color: Colors.blue),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            Text(
+                              '바로가기',
+                              style: TextStyle(
+                                  color: Colors.blue,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          SizedBox(
+                            height: 100,
+                            width: 100,
+                            child: OutlinedButton(
+                              onPressed: () {},
+                              style: OutlinedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                side: BorderSide(color: Colors.blue),
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(4)),
+                              ),
+                              child: Text(
+                                '홍보영상',
+                                style: TextStyle(
+                                    color: Colors.blue,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 14),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 100,
+                            width: 100,
+                            child: OutlinedButton(
+                              onPressed: () {},
+                              style: OutlinedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                side: BorderSide(color: Colors.blue),
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(4)),
+                              ),
+                              child: Text(
+                                '우수사례',
+                                style: TextStyle(
+                                    color: Colors.blue,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 14),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 100,
+                            width: 100,
+                            child: OutlinedButton(
+                              onPressed: () => ,
+                              style: OutlinedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                side: BorderSide(color: Colors.blue),
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(4)),
+                              ),
+                              child: Text(
+                                'FAQ',
+                                style: TextStyle(
+                                    color: Colors.blue,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 14),
+                              ),
+                            ),
+                          ),
+                        ],
+                      )
                     ],
                   ),
                 )
