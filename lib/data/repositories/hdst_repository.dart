@@ -8,7 +8,7 @@ class HdstRepository {
 
   Future<List<HdstModel>> getRandomFiveHdst() async {
     final response = await client.get(
-      Uri.parse('http://172.28.2.82:8081/video/streaming/100.mp4'),
+      Uri.parse('http://172.28.2.82:8081/api/home'),
     );
 
     final json = jsonDecode(response.body);
