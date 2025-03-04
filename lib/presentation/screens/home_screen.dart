@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             return Column(
                               children: [
                                 Image.network(
-                                  'http://192.168.44.45:8081/resource/img/hdst/${hdstModel.repesntFileNm}',
+                                  'http://172.28.2.82:8081/resource/img/hdst/${hdstModel.repesntFileNm}',
                                   width: MediaQuery.sizeOf(context).width - 60,
                                   height: 180,
                                   fit: BoxFit.cover,
@@ -95,12 +95,13 @@ class _HomeScreenState extends State<HomeScreen> {
                                       color: Colors.blue,
                                       fontSize: 24,
                                       fontWeight: FontWeight.bold),
-                                )
+                                ),
                               ],
                             );
                           },
                         ),
-                      )
+                      ),
+                      Text('업종별 백년가게')
                     ],
                   ),
                 )
