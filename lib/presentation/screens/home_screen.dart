@@ -4,6 +4,7 @@ import 'package:module_b_101/common/ip_address.dart';
 import 'package:module_b_101/presentation/providers/home_provider.dart';
 import 'package:module_b_101/presentation/widgets/custom_Industry_button.dart';
 import 'package:module_b_101/presentation/widgets/slicer_app_bar.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -236,7 +237,10 @@ class _HomeScreenState extends State<HomeScreen> {
                             height: 100,
                             width: 100,
                             child: OutlinedButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                launchUrl(Uri.parse(
+                                    'https://www.sbiz.or.kr/hdst/board/boardList.do?boardCd=VIDEO'));
+                              },
                               style: OutlinedButton.styleFrom(
                                 backgroundColor: Colors.white,
                                 side: BorderSide(color: Colors.blue),
@@ -256,7 +260,10 @@ class _HomeScreenState extends State<HomeScreen> {
                             height: 100,
                             width: 100,
                             child: OutlinedButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                launchUrl(Uri.parse(
+                                    'https://www.sbiz.or.kr/hdst/board/boardList.do?boardCd=GOODEXAMPLE'));
+                              },
                               style: OutlinedButton.styleFrom(
                                 backgroundColor: Colors.white,
                                 side: BorderSide(color: Colors.blue),
@@ -276,7 +283,10 @@ class _HomeScreenState extends State<HomeScreen> {
                             height: 100,
                             width: 100,
                             child: OutlinedButton(
-                              onPressed: () => ,
+                              onPressed: () {
+                                launchUrl(Uri.parse(
+                                    'https://www.sbiz.or.kr/hdst/board/boardList.do?boardCd=FAQ'));
+                              },
                               style: OutlinedButton.styleFrom(
                                 backgroundColor: Colors.white,
                                 side: BorderSide(color: Colors.blue),
