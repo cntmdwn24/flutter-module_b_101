@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class HdstModel {
   final int hdstId;
   final String hdstNm;
@@ -20,25 +18,26 @@ class HdstModel {
   final String packngPosblYn;
   final String dspsnCnvncYn;
 
-  HdstModel(
-      {required this.hdstId,
-      required this.hdstNm,
-      required this.repesntFileNm,
-      required this.hdstInduty,
-      required this.appnYear,
-      required this.opbizDe,
-      required this.bsnTime,
-      required this.cttPc,
-      required this.adres,
-      required this.hmPg,
-      required this.ctprvnCd,
-      required this.signguCd,
-      required this.dc,
-      required this.parkngPosblYn,
-      required this.resvePosblYn,
-      required this.cardPosblYn,
-      required this.packngPosblYn,
-      required this.dspsnCnvncYn});
+  HdstModel({
+    required this.hdstId,
+    required this.hdstNm,
+    required this.repesntFileNm,
+    required this.hdstInduty,
+    required this.appnYear,
+    required this.opbizDe,
+    required this.bsnTime,
+    required this.cttPc,
+    required this.adres,
+    required this.hmPg,
+    required this.ctprvnCd,
+    required this.signguCd,
+    required this.dc,
+    required this.parkngPosblYn,
+    required this.resvePosblYn,
+    required this.cardPosblYn,
+    required this.packngPosblYn,
+    required this.dspsnCnvncYn,
+  });
 
   factory HdstModel.fromJson(Map<String, dynamic> json) {
     return HdstModel(
