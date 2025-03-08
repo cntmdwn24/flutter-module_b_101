@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7be1e9-6d86-4754-9f7c-1b18f0c84824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deviceManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/repositories/hdstInduty_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/providers/main_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/hundred_years_store_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/like_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/main_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/search_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/settings_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_dotted_line.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter-module_b_101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-module_b_101.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/armeabi-v7a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/armeabi-v7a/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86_64/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/common/ip_address.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/ip_address.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/providers/oneboarding_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/providers/oneboarding_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/custom_Industry_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_Industry.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/custom_repsntfilenm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_repsntfilenm.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/horizontal_dashed_divider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/widgets/horizontal_dashed_divider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
