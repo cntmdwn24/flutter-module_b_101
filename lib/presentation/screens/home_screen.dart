@@ -1,12 +1,13 @@
+import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import 'package:module_b_101/common/ip_address.dart';
 import 'package:module_b_101/presentation/providers/home_provider.dart';
-import 'package:module_b_101/presentation/widgets/custom_Industry_button.dart';
+import 'package:module_b_101/presentation/widgets/custom_Industry.dart';
 import 'package:module_b_101/presentation/widgets/custom_repsntfilenm.dart';
-import 'package:module_b_101/presentation/widgets/horizontal_dashed_divider.dart';
 import 'package:module_b_101/presentation/widgets/slicer_app_bar.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../widgets/custom_dotted_line.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -105,7 +106,19 @@ class _HomeScreenState extends State<HomeScreen> {
                               color: Colors.grey,
                             ),
                           ),
-                          HorizontalDashedDivider(),
+                          SizedBox(
+                            width: 150,
+                            child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: List.generate(
+                                    20,
+                                    (index) => Container(
+                                          width: 4,
+                                          height: 1,
+                                          color: Colors.grey,
+                                        ))),
+                          ),
                           Text(
                             'SWIPE',
                             style: TextStyle(
@@ -113,7 +126,19 @@ class _HomeScreenState extends State<HomeScreen> {
                                 fontWeight: FontWeight.bold,
                                 fontSize: 12),
                           ),
-                          HorizontalDashedDivider(),
+                          SizedBox(
+                            width: 150,
+                            child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: List.generate(
+                                    20,
+                                    (index) => Container(
+                                          width: 4,
+                                          height: 1,
+                                          color: Colors.grey,
+                                        ))),
+                          ),
                           Icon(
                             Icons.play_arrow_rounded,
                             size: 15,
@@ -157,19 +182,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          CustomIndustryButton(text: '건설업'),
-                          CustomIndustryButton(text: '농업'),
-                          CustomIndustryButton(text: '소도매업'),
-                          CustomIndustryButton(text: '서비스업'),
+                          CustomIndustry(text: 's'),
                         ],
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          CustomIndustryButton(text: '숙박업'),
-                          CustomIndustryButton(text: '음식업'),
-                          CustomIndustryButton(text: '제조업'),
-                          CustomIndustryButton(text: '축산업'),
+                          CustomIndustry(text: ''),
                         ],
                       )
                     ],

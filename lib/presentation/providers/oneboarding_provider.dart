@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:module_b_101/common/ip_address.dart';
-import 'package:module_b_101/presentation/screens/home_screen.dart';
+import 'package:module_b_101/presentation/screens/main_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 
@@ -34,6 +34,6 @@ class OneboardingProvider extends ChangeNotifier {
     final sharedPref = await SharedPreferences.getInstance();
     await sharedPref.setBool('skipOneboarding', true);
     Navigator.of(context)
-        .pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+        .pushReplacement(MaterialPageRoute(builder: (context) => MainScreen()));
   }
 }

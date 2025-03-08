@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7be1e9-6d86-4754-9f7c-1b18f0c84824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_repsntfilenm.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/horizontal_dashed_divider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/repositories/hdstInduty_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/providers/main_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/hundred_years_store_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/like_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/main_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/screens/settings_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_dotted_line.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flutter-module_b_101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-module_b_101.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/armeabi-v7a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/armeabi-v7a/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/111r2v65/x86_64/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/models/hdst_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/models/hdst_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/ip_address.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/ip_address.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/providers/oneboarding_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/providers/oneboarding_provider.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/custom_Industry_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_Industry.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/custom_repsntfilenm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_repsntfilenm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/horizontal_dashed_divider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/widgets/horizontal_dashed_divider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flutter.main.dart.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "io.flutter.reload.alreadyRun": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/cntmdwn/GitHub/flutter-module_b_101",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flutter.main.dart.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cntmdwn/GitHub/flutter-module_b_101&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />

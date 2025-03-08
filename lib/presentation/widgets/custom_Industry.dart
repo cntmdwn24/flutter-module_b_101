@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class CustomIndustryButton extends StatelessWidget {
+class CustomIndustry extends StatelessWidget {
   final String text;
 
-  const CustomIndustryButton({
+  const CustomIndustry({
     super.key,
     required this.text,
   });
@@ -17,7 +17,7 @@ class CustomIndustryButton extends StatelessWidget {
         height: 90,
         child: Column(
           children: [
-            Container(
+            SizedBox(
               width: 60,
               height: 60,
               child: IconButton(
