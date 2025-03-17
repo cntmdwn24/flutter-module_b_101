@@ -1,4 +1,3 @@
-import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 import 'package:module_b_101/presentation/providers/home_provider.dart';
@@ -6,8 +5,6 @@ import 'package:module_b_101/presentation/widgets/custom_Industry.dart';
 import 'package:module_b_101/presentation/widgets/custom_repsntfilenm.dart';
 import 'package:module_b_101/presentation/widgets/slicer_app_bar.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-import '../widgets/custom_dotted_line.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -22,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPersistentFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       homeProvider.addListener(updateScreen);
       homeProvider.loadRandomFiveHdst();
     });
