@@ -179,13 +179,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          CustomIndustry(text: 's'),
+                         //ㅁㄴㅇㄹㅎ
                         ],
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          CustomIndustry(text: ''),
+                          //ㅁㅇㄴㄹ
                         ],
                       )
                     ],
